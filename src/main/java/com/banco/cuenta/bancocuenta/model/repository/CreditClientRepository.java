@@ -1,0 +1,8 @@
+package com.banco.cuenta.bancocuenta.model.repository;
+
+import com.banco.cuenta.bancocuenta.model.document.CreditClient;
+import com.banco.cuenta.bancocuenta.model.document.TarjetaCredit;
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+
+public interface CreditClientRepository extends ReactiveMongoRepository<CreditClient,String> {
+}
