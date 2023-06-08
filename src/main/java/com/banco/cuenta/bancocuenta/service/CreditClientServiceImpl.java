@@ -1,9 +1,7 @@
 package com.banco.cuenta.bancocuenta.service;
 
 import com.banco.cuenta.bancocuenta.model.document.*;
-import com.banco.cuenta.bancocuenta.model.repository.ClientRepository;
 import com.banco.cuenta.bancocuenta.model.repository.CreditClientRepository;
-import com.banco.cuenta.bancocuenta.model.repository.TarjetaCreditRepository;
 import com.banco.cuenta.bancocuenta.model.repository.TypeCreditRepository;
 import com.banco.cuenta.bancocuenta.model.service.CreditClientService;
 import io.reactivex.rxjava3.core.Flowable;
